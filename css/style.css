@@ -1,0 +1,155 @@
+.seta {
+	width: 20px;
+	height: 30px;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	font-family: "Open-sans", sans-serif;
+	background-color: #303134;
+	color: #ffff;
+}
+
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #fff;
+	background-color: #0b5f91;
+	height: 70px;
+	padding: 10px;
+
+}
+.header-title {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+
+}
+
+header h1 {
+	width: 20;
+	height: 16px;
+}
+
+nav {
+	background-color: #0b5f91;
+	height: 30px;
+	color: #fff;
+}
+.nav-itens {
+	display: flex;
+	align-items: center;
+	gap:20;
+	justify-content: center;
+	height: 0px;
+}
+.nav-itens div {
+   padding: 16px;
+
+}
+
+.main-class {
+	text-align: center;
+	margin: auto;
+}
+
+.fases-itens {
+	display: flex;
+	align-items: center;
+	border: 1px solid #dadce0;
+	justify-content: center;
+	font-size: 12px;
+	height: 32px;
+	gap: 300px;
+	width: 50%;
+	margin: auto;
+}
+
+main {
+    text-align: center;
+}
+
+.container {
+    width: 40%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;
+    border: 1px solid #dadce0;
+}
+
+.fases {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.fases .fase-iten {
+    width: 100%;
+    padding: 16px;
+    font-size: 12px;
+}
+
+.fase-grupo {
+    border-bottom: 2px solid black;
+}
+
+.tables-container {
+    width: 100%;
+    text-align: left;
+    padding: 16px 0 0 0;
+}
+
+.grupo-a h3 {
+    margin-left: 20px;
+}
+
+.table-grupo-a {
+    width: 100%;
+    font-size: 12px;
+}
+
+.table-head-tr {
+    border-bottom: 1px solid #dadce0;
+}
+
+.table-head-tr th {
+    padding: 0 3px 8px;
+    text-align: center;
+}
+
+.table-head-tr .equipe {
+    text-align: left;
+    width: 60%;
+}
+
+.table-body-row {
+    text-align: center;
+    height: 30px;
+    border-left: 2px solid #0b5f91;
+    border-bottom: 1px solid #dadce0;
+    border-top: 1px solid #dadce0;
+}
+
+.equipe-body {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+}
+
+.equipe-body img {
+    width: 20px;
+    height: 20px;
+}
+.table-body-row:hover {
+    cursor: pointer;
+    background: #dadce0;
+}
